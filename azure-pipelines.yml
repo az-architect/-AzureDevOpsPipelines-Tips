@@ -12,10 +12,7 @@ variables:
   value: 'resourcegroup-tfstate'
 - name: storageAccount
   value:'terraformtfstateskipqa'
-- name: tfstateFile
-  value: 'terraform.tfstate'
-- name: anyTfChanges 
-  value: 'false'  
+
 
 steps:
 
