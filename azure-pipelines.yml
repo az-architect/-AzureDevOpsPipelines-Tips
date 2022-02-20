@@ -9,18 +9,13 @@ variables:
 - name: subscription
   value: 'Visual Studio Enterprise Subscription - MPN(17dd7b2b-00a8-456c-86e9-e80b4c2334ee)'
 - name: resourceGroup
-  value:'resourcegroup-tfstate'
-- name:storageAccount
+  value: 'resourcegroup-tfstate'
+- name: storageAccount
   value:'terraformtfstateskipqa'
 - name: tfstateFile
   value: 'terraform.tfstate'
-- name: anyTfChanges
-  value: 'false'
-
-
-
-
-  
+- name: anyTfChanges 
+  value: 'false'  
 
 steps:
 
