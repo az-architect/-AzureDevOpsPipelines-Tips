@@ -67,4 +67,4 @@ steps:
     command: 'apply'
     workingDirectory: '$(System.DefaultWorkingDirectory)/skip-step'
     commandOptions: 'tfplan'
-    environmentServiceNameAzureRM: '$(varibales.subscription)'
+    environmentServiceNameAzureRM: '$(subscription)'
