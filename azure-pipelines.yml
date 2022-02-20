@@ -5,13 +5,15 @@ pool:
   vmImage: 'ubuntu-latest'
 
 variables:
-
 - name: subscription
   value: 'Visual Studio Enterprise Subscription - MPN(17dd7b2b-00a8-456c-86e9-e80b4c2334ee)'
 - name: resourceGroup
   value: 'resourcegroup-tfstate'
 - name: storageAccount
-  value:'terraformtfstateskipqa'
+  value:terraformtfstateskipqa
+  - name: one
+  value: initialValue
+
 
 
 steps:
